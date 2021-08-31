@@ -28,3 +28,32 @@ h1 {
     height: 500px;
     display: block
 }
+td {
+    width: 100px;
+    height: 100px;
+}
+table {
+    margin: auto;
+}
+.top {
+    border-top: 3px solid black;
+}
+.right {
+    border-right: 3px solid black;
+}
+.bottom {
+    border-bottom: 3px solid black;
+}
+.left {
+    border-left: 3px solid black;
+}
+#one, #five, td:nth-of-type(1), td:nth-of-type(5)
+{
+    background-color: red;
+}
+#two, #four #three {
+    background-color: blue;
+}
+.top.bottom.left.right {
+    background-color: white;
+}
